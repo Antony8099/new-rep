@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>тест</title>
+  <link rel="stylesheet" type="text/css" href="body.css">
+  <link href="" rel="stylesheet">
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+ 	<script src="js/jquery.parallax.min.js"></script>
+	<script src="js/jquery.event.frame.js"></script>
+	<script>
+		$(function(){
+			$('.parallax__layer').parallax({
+			mouseport: $('.parallax'),
+			decay: 0
+			});
+		});
+	</script>
+ </head>
+	<body>
+		<header></header>
+		<div class="parallax">
+			<div class="parallax__layer">
+				<div class="img__layer"></div>
+			</div>
+			<div class="parallax__layer">
+				<div class="img__layer1"></div>
+			</div>
+			<div class="parallax__layer">
+				<div class="img__layer2"></div>
+			</div>
+			<div class="parallax__layer">
+				<div class="img__layer3"></div>
+			</div>			
+				<div class="place">
+				<form class="form__search">
+					<input type="search" id="input" placeholder="Какой сегодня праздник?">
+					<button class="button">Найти</button>
+				</form>
+			</div>
+		
+		</div>
+
+	</body>
+ <head>
+
+ </head>
+</html>
