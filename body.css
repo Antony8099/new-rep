@@ -33,7 +33,7 @@ header{
 	left: 77%;
 	width: 500px;
 	height: 500px;
-	background-image: url(moon.png); 
+	background-image: url(mars.png); 
 	background-size: cover;
 	z-index: 9999;
 }
